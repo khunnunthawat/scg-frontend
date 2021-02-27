@@ -12,6 +12,8 @@ npm run serve
 
 ### API
 ```
+online : https://api.jsonbin.io/b/603a8be00866664b1084a098
+office : localhost:4000/product
 cd dummy
 nodemon server.js
 ```
