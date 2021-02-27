@@ -1,0 +1,453 @@
+//$primary: #fc1f74; 
+$primary: #007bff;
+
+@import "../../node_modules/bootstrap/scss/bootstrap"; 
+
+.btn-primary:focus, 
+.btn-primary:active { 
+  box-shadow: none !important; outline: 0px !important; 
+} 
+
+#app { 
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  color: #2c3e50; 
+  background-color: #f8f9fa;
+} 
+
+// ---------- Header ---------- 
+#header { 
+  .navbar { 
+    background-color: #282828; 
+  } 
+} 
+
+// ----------  Welcome ---------- 
+.welcome { 
+  padding: 50px; 
+  align-items: center; 
+  text-align: center;
+  background-color: #FFF;
+}
+.jumbotron {
+  background-color: #FFF;
+}
+
+// ----------  Footer ---------- 
+.footer-dark { 
+  padding:50px 0; 
+  color:#f0f9ff; 
+  background-color:#282d32; 
+  h3 { 
+    margin-top:0; 
+    margin-bottom:12px; 
+    font-weight:bold; 
+    font-size:16px; 
+  } 
+  ul { 
+    padding:0; 
+    list-style:none; 
+    line-height:1.6; 
+    font-size:14px; 
+    margin-bottom:0;
+    a { 
+      color:inherit; 
+      text-decoration:none; 
+      opacity:0.6; 
+    } 
+  }
+  .item {
+    .text { 
+      margin-bottom:36px;
+      p { 
+        opacity:0.6; 
+        margin-bottom:0; 
+      } 
+    }
+    .social { 
+      text-align:center; 
+    } 
+  }
+  .copyright { 
+    text-align:center; 
+    padding-top:24px; 
+    opacity:0.3; 
+    font-size:13px; 
+    margin-bottom:0; 
+  }
+} 
+.col.item.social {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer-dark ul a:hover { 
+  opacity:0.8; 
+} 
+@media (max-width:767px) { 
+  .footer-dark .item:not(.social) { 
+    text-align:center; padding-bottom:20px; 
+  } 
+}
+@media (max-width:767px) { 
+  .footer-dark .item.text { 
+    margin-bottom:0; 
+  } 
+}
+@media (max-width:991px) { 
+  .footer-dark .item.social { 
+    text-align:center; margin-top:20px; 
+  } 
+} 
+.footer-dark .item.social > a { 
+  font-size:20px; 
+  width:36px; 
+  height:36px; 
+  line-height:36px; 
+  display:inline-block; 
+  text-align:center; 
+  border-radius:50%; 
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4); 
+  margin:0 8px; 
+  color:#fff; 
+  opacity:0.75; 
+} 
+.footer-dark .item.social > a:hover { 
+  opacity:0.9; 
+}
+.time_footer {
+  color: #FFF;
+}
+
+
+// ----------  DOSCG ---------- 
+#doscg {
+  padding: 50px 10px 10px 10px;
+}
+
+
+
+
+// ----------  Bootstrap CSS ---------- 
+.bcss_custom {
+  margin: 0px 20px 0px 20px;
+}
+
+//login
+.login_page {
+
+	font-size: 16px;
+
+  .brand {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    margin: 40px auto;
+    position: relative;
+    z-index: 1;
+
+    img {
+      width: 100%;
+    }
+  }
+  .card-wrapper {
+    width: 400px;
+  }
+  .card {
+    padding: 50px 50px 50px 50px;
+    border-color: transparent;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.05);
+    background-color: #FFF !important;
+    .fat {
+      padding: 10px;
+    }
+    .card-title {
+      margin-bottom: 30px;
+    }
+  }
+  .form-control {
+    border-width: 2.3px;
+  }
+  .form-group {
+    label {
+      width: 100%;
+    }
+  }
+  .btn.btn-block {
+    padding: 12px 10px;
+  }
+  @media screen and (max-width: 425px) {
+    .card-wrapper {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .card.fat {
+      padding: 0;
+    }
+  
+    .card.fat .card-body {
+      padding: 15px;
+    }
+  }
+}
+
+// ---------- Fotgot ---------- 
+#forgot {
+  .btn_back {
+    margin-top: 25px;
+  }
+}
+
+// ---------- API Product ---------- 
+.card_product {
+  margin: 20px 0px 20px 0px;
+}
+
+// ---------- Resume ---------- 
+// Wrapper
+.data_resume {
+  width: 1250px;
+  height: 1769px;
+  font-family: DB Adman X, DB Adman X Li;
+  font-size: 50px;
+  background: #dddee2;
+  color: #000;
+  padding: 30px;
+
+  .info_profile {
+
+    height: 380px;
+    background-color: #212429;
+    text-align: -webkit-center;
+    padding: 45px;
+
+    .profile_bg {
+      text-align: -webkit-center;
+
+      .profile_border {
+        height: 70%;
+        border-radius: 50%;
+        border: 10px solid #FFF;
+        overflow: hidden;
+        vertical-align: middle;
+        background-color: rgba(0,0,0,.1);
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        
+        img {
+          vertical-align: unset;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .info_bg {
+    height: 1299px;
+    margin-top: 30px;
+    background-color: #FFF;
+
+    .info_left {
+      padding: 30px;
+
+      .head_box_left {
+        margin: 10px 0px 10px 0px;
+        height: 50px;
+        background-color: #212429;
+
+        .icon_box_left {
+          height: 50px;
+          text-align: center;
+          text-align: -webkit-center;
+
+          img {
+            width: 50px;
+            position: absolute;
+            padding: 5px;
+          }
+        }
+         
+        .bg_box_left {
+          margin: 5px 0px 5px 25px;
+          background-color: #FFF;
+
+          h2 {
+            font-size: 32px;
+            color: #000;
+            margin-left: 15px;
+          }
+        }
+      }
+
+      .info_list_left {
+        margin: 30px 0px 30px 0px;
+
+        .list_item {
+          text-align: left;
+          margin: 10px 0px 10px 3px ;
+
+          .text_list {
+            width: 245px;
+          }
+          
+          .icon_box_left {
+            width: 30px;
+            height: 30px;
+            background-color: #000;
+            border-radius: 50%;
+
+            img {
+              width: 30px;
+              position: absolute;
+              padding: 7px;
+            }
+          }
+
+          .text_list {
+            h3 {
+              margin-top: 1px;
+              font-size: 25px;
+              color: #000;
+              a {
+                color: #000;
+                text-decoration-line: none;
+              }
+            }
+
+            h4 {
+              width: 210px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .info_right {
+    height: 1709px;
+    background-color: #FFF;
+    padding: 30px;
+
+    .info_text_right {
+      margin-top: 66px;
+
+      .info_list_right {
+
+        .list_text {
+          margin: 30px 0px 30px 5px;
+
+          .time_line {
+            width: 70px;
+            background-color: #FFF;
+            border-left: 4px solid #212429;
+            .time-box h3 {
+              border-bottom: 4px solid #212429;
+              -moz-text-align-last: right;
+              text-align-last: right;
+              text-align: -webkit-right;
+            }
+            .time-box-under {
+              color: #FFF;
+            }
+          }
+
+          .infor-text h3 {
+            color: #000;
+            font-size: 30px;
+            a {
+              color: #000;
+              text-decoration-line: none;
+            }
+          }
+
+          ul {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+
+    .head {
+      h1 {
+        font-size: 70px;
+        margin-bottom: 0px;
+      }
+      h2 {
+        margin-bottom: 5px;
+      }
+      .line_box {
+        width: 120px;
+        height: 7px;
+        background: #212429;
+      }
+    }
+
+    .obj {
+      width: 160px;
+      height: 56px;
+      margin-top: 50px;
+      border: 3px solid #212429;
+      box-sizing: border-box;
+      padding: 10px;
+      
+
+      h2 {
+        font-size: 30px;
+        text-align-last: center;
+      }
+    }
+
+    .info_title {
+      margin-top: 35px;
+      margin-left: 20px;
+    }
+
+    .head_box_right {
+      margin: 10px 0px 10px 0px;
+      height: 50px;
+      background-color: #212429;
+
+      .icon_box_right {
+        height: 50px;
+        margin-right: 20px;
+        text-align: center;
+        text-align: -webkit-center;
+
+        img {
+          width: 50px;
+          position: absolute;
+          padding: 5px;
+        }
+      }
+       
+      .bg_box_right {
+        margin: 5px 0px 5px 0px;
+        background-color: #FFF;
+
+        h2 {
+          font-size: 32px;
+          color: #000;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
+
