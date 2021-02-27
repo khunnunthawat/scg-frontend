@@ -10,6 +10,12 @@ npm install
 npm run serve
 ```
 
+### API
+```
+cd dummy
+nodemon server.js
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
