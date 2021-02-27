@@ -1,5 +1,7 @@
 # scg
 
+Preview : https://khunnunthawat-scg-frontend.herokuapp.com/
+
 ## Project setup
 ```
 npm install
