@@ -18,7 +18,8 @@ API
 ![screencapture-localhost-8080-apis-2021-02-27-23_35_15](https://user-images.githubusercontent.com/68588944/109400891-f7312c80-797d-11eb-93c5-d5a4abfcb0da.png)
 
 CV
-![screencapture-localhost-8080-resume-2021-02-27-23_35_38](https://user-images.githubusercontent.com/68588944/109400902-02845800-797e-11eb-8981-7fb0bfcffcf6.png)
+![screencapture-localhost-8080-resume-2021-03-04-22_48_00](https://user-images.githubusercontent.com/68588944/109990170-bbaaaf80-7d3b-11eb-968c-c7738c365d42.png)
+
 
 
 ## Project setup
