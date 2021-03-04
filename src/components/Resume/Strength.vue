@@ -80,7 +80,7 @@ export default {
       header: "Strength",
       title1: "1.Work well in team.",
       title2: "2.Work well in under pressure.",
-      title3: "3.​Flexible time for work."
+      title3: "3.​Enthusiastic to gather new knowledge"
     };
   }
 };
